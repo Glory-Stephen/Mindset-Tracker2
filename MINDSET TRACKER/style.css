@@ -1,0 +1,184 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:rgb(184, 98, 98);
+  color:yellow;
+  padding:20px 15px;  
+}
+.header{
+  color:yellow;
+  font-size: 15px;
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+}
+.picture{
+  align-items: center;
+}
+.container1{
+background-color: rgb(49, 49, 211);
+max-width: 500px;
+margin:0 auto 25px;
+padding:20px;
+border-radius: 13px;
+box-shadow: 0 4px 15px;
+}
+.progress{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+color:yellow;
+}
+.Text{
+  color:yellow;
+  font-size:15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+#Dot-line{
+  width:300px;
+  height:25px;
+  background-color: rgb(88, 88, 224);
+  border-radius: 30px;
+font-weight: bold;
+}
+#wrapper{
+  display: flex;
+  flex-direction:colum;
+ justify-content: space-between;
+}
+#container2{
+  background-color: rgb(110, 51, 51);
+  box-shadow: 0 4px 15px;
+  align-items: flex-end;
+  padding:15px;
+  border-radius: 55px;
+  margin-right:100px;
+}
+#New-habit{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.form-bar{
+  display: flex;
+  gap:10px;
+  margin-bottom:30px ; 
+}
+.form-bar input{
+  flex:2;
+  padding:15px;
+  border:5px,solid black;
+  border-radius: 10px;
+  outline:none;
+  font-size: 15px;
+}
+.form-bar input:focus{
+  border-color: beige;
+}
+.form-bar button{
+  background-color: rgb(15, 13, 11);
+  color:white;
+  border:none;
+  padding:12px 18px;
+  border-radius: 10px;
+  cursor:pointer;
+}
+.form-bar button:hover{
+  background-color: black;
+}
+.habit{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom:20px;
+  display: flex;
+  flex-direction:column ;
+}
+nav{
+  display:flex;
+  gap: 15px;
+  margin-bottom:20px
+}
+nav button{
+padding:6px 15px;
+border:none;
+border-radius:7px;
+background-color: yellowgreen;
+cursor:pointer;
+columns: white;
+}
+nav button:hover,nav button:focus{
+  background-color: white;
+
+}
+.message{
+  text-align: center; 
+  color:yellow;
+  font-size:30px;
+  border:15px;
+  background-color: black;
+  border-style:dotted ;
+  border-radius: 10px;
+  padding-bottom: 25px;
+
+}
+#empty message{
+display:flex;
+  flex-direction: column;
+  font-size: medium;
+  font-weight: 100px;
+}
+
+#habit-container{
+  gap:12px;
+  padding-left: 150px;
+margin-top: 15px;
+}
+.habit-card{
+  display:flex;
+  align-items:center;
+  gap:15px;
+  background-color:rgb(100, 51, 51);
+  padding:15px;
+  border:2px solid white;
+  border-radius:12px;
+
+}
+.check{
+  width:20px;
+  height:24px;
+  border:2px solid milk;
+cursor:pointer;
+flex-shrink: 0;
+}
+.completed-text{
+  color:black;
+  text-decoration: line-through;
+  opacity:0.6;
+}
+.delete{
+  width:22px;
+  height:22px;
+  border:none;
+ background-color: rgb(78, 23, 23);
+ border-radius: 5px;
+ cursor:pointer;
+}
+.delete:hover{
+  background-color:brown;
+}
+@media(max-width:480px){
+  body{
+    padding:10px 12px;
+    width:100px;
+  }
+}
+
+
+
+
+
